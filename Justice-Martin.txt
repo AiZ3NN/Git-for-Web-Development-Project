@@ -1,0 +1,100 @@
+﻿Link to Codepen: https://codepen.io/aiz3nn/pen/oNbMbjP?editors=1100
+
+
+Answers:
+
+
+1. Semantic HTML is the correct use of HTML to reinforce the meaning of content on a web page, rather than merely define its appearance
+2. HTML is used to create web pages
+3. HTML attributes provide additional information about HTML elements
+4. H1 tag is used as the heading / title it should be used for the heading portion of the page
+5. `<a>` & `<img>`
+6. typically defines the document title, character set, styles, scripts, and other meta information
+7. The HTML id attribute is used to specify a unique id for an HTML element
+8. The id attribute can be used on any Semantic HTML element
+9. ID's should be unique, so you should only use a particular ID once on a page
+10. The class attribute is often used to point to a class name in a style sheet; to specify a class for an HTML element
+11. The class attribute can be used on any HTML element
+12. Classes may be used repeatedly on a page
+13. Use target="_blank" to open the linked document in a new tab
+14. Specifies an alternate text for the image
+15. To select an element with a specific id, write a hash (#) character, followed by the id of the element
+16. <section> means that the content inside is grouped (i.e. relates to a single theme), and should appear as an entry in an outline of the page; <div>, on the other hand, does not convey any meaning, aside from any found in its class, lang and title attributes.
+17. Tells the browser how to display the text and other content that you write in HTML.
+18. The element selector selects all elements with the specified element name.
+19. The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one. 
+20. To select elements with a specific class, write a period (.) character, followed by the class name.
+21. The element.class selector is used to select the specified element with the specified class.
+22. The ("parent > child") selector selects all elements that are a direct child of the specified element.
+23. ?:link {
+  dev;
+}
+24. A pseudo-class is used to define a special state of an element, and a pseudo-element is used to style specified parts of an element.
+25. The line-height property specifies the height of a line
+26. The letter-spacing property increases or decreases the space between characters in a text.
+27. The font-variant-caps property controls the usage of alternate glyphs for capital letters.
+28. div {
+border: 1px dotted black;
+}
+29. The * selector selects all elements.
+30. You start a comment with /* , and end it with */ 
+31. In order to see where you are at any time within your computer, you can type the command  pwd
+32. To do that you use the ls (or list) command.
+33. del filename
+34. Version control helps teams solve these kinds of problems, tracking every individual change by each contributor and helping prevent concurrent work from conflicting.
+35. -m “your commit message”
+36. git push -u origin master
+37. Git Flow_
+Fork the project repo
+Add your PM as a collaborator found in the Github repo settings
+Clone your forked repo
+
+
+Go to your terminal and add the command: git clone * repo link* 
+
+
+Go to cloned repo (cd name-of-repo) then create a new branch with first name and last name. git checkout -b firstname-lastname
+
+
+Open project repo then start coding!
+
+
+When you’re ready to commit your changes, save your changes then go back to terminal then add > commit > push 
+
+
+git add path/to/file
+git add commit -m “your commit message”
+git push origin your-branch-name
+
+
+Go back to Github, click the compare & pull request button. *If that doesn’t show up click the New pull request button.
+
+
+Choose forked repo as your base repository.
+
+
+Add TL as a contributor and click pull request. 
+
+
+DO NOT CLICK MERGE PULL REQUEST. 
+
+
+Head back over to the project and start working. add > commit > push origin firstname-lastname every time you finish a feature.
+
+
+Once MVP is complete make a commit with the commit message “mvp complete.” And TL will check it out.
+
+
+Check email to see when pull request is merged.
+
+
+
+
+Stretch Questions
+
+
+1. You can't put block elements inside inline elements. Formatting. By default, inline elements do not force a new line to begin in the document flow. Block elements, on the other hand, typically cause a line break to occur 
+2. An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+3. ?
+4. (<div>,<h1> - <h6>,<p>) , (<span>,<a>) , (<input>)
+5. In CSS, the box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The “fix” for the box model would be the use of the box-sizing property.
